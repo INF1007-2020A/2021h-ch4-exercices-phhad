@@ -4,27 +4,28 @@
 
 def is_even_len(string: str) -> bool:
     channel = "Hello There"
-    if is_even_len(channel):
-        print("C'est pair")
+    if len(string)%2:
+        print("True")
     else:
-        print("C'est faux!")
+        print("False")
 
 
 def remove_third_char(string: str) -> str:
-
-    pass
+    ching = "Bonjour"
+    ching[2] = "g"
+    return ching
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    pass
+
 
 
 def get_number_of_char(string: str, char: str) -> int:
-    pass
+
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    pass
+
 
 
 def main() -> None:
