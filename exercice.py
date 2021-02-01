@@ -3,10 +3,15 @@
 
 
 def is_even_len(string: str) -> bool:
-    pass
+    channel = "Hello There"
+    if is_even_len(channel):
+        print("C'est pair")
+    else:
+        print("C'est faux!")
 
 
 def remove_third_char(string: str) -> str:
+
     pass
 
 
