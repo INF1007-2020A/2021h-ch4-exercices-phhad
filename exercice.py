@@ -4,27 +4,33 @@
 
 def is_even_len(string: str) -> bool:
     channel = "Hello There"
-    if len(string)%2:
+    if len(string)%2==0:
         print("True")
     else:
         print("False")
 
 
 def remove_third_char(string: str) -> str:
-    ching = "Bonjour"
-    ching[2] = "g"
-    return ching
+    return string[:2] + string[3:]
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-
+    for i in range(len(string)):
+        if string[i] == old_char:
+            string = string[:i] + new_char + string[i+1:]
 
 
 def get_number_of_char(string: str, char: str) -> int:
+    string = "Menacing"
+    count = 0
+    for i in string:
+        count += 1
+    return count
 
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
+    string = "Nobeast escape me! I am the Taggerung!"
 
 
 
