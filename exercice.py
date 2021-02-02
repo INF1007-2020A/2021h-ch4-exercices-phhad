@@ -23,7 +23,8 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 def get_number_of_char(string: str, char: str) -> int:
     string = "Menacing"
     count = 0
-    for char in string:
+    for i in string:
+        if i == char:
         count += 1
 
 
