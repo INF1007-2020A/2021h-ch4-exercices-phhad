@@ -25,12 +25,17 @@ def get_number_of_char(string: str, char: str) -> int:
     count = 0
     for i in string:
         if i == char:
-        count += 1
+            count += 1
 
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    string = "Nobeast escape me! I am the Taggerung!"
+    sentence = "Nobeast escape me! I am the Taggerung!"
+    Compteur = 0
+    for i in sentence:
+        if i == word:
+            Compteur += 1
+
 
 
 
