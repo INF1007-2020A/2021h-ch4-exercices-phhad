@@ -10,13 +10,13 @@ FAIL: test_get_number_of_char (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 65, in test_get_number_of_char
     "Mauvais calcul du nombre d'occurence du caractère"
-AssertionError: Lists differ: [8, 8, 8] != [4, 1, 0]
+AssertionError: Lists differ: [None, None, None] != [4, 1, 0]
 
 First differing element 0:
-8
+None
 4
 
-- [8, 8, 8]
+- [None, None, None]
 + [4, 1, 0] : Mauvais calcul du nombre d'occurence du caractère
 
 ======================================================================
