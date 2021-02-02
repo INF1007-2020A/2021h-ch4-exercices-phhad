@@ -4,7 +4,7 @@
 
 def is_even_len(string: str) -> bool:
     string = "Hello There"
-    if len(string)%2==0:
+    if len(string) % 2 == 0:
         return True
     else:
         return False
@@ -32,7 +32,7 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    sentence = "Nobeast escape me! I am the Taggerung!"
+    sentence = sentence.split()
     Compteur = 0
     for i in sentence:
         if i == word:
