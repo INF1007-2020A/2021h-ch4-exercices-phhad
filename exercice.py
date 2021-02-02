@@ -5,9 +5,9 @@
 def is_even_len(string: str) -> bool:
     string = "Hello There"
     if len(string)%2==0:
-        print("True")
+        return True
     else:
-        print("False")
+        return False
 
 
 def remove_third_char(string: str) -> str:
@@ -15,7 +15,6 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    string:"fire"
     for i in range(len(string)):
         if string[i] == old_char:
             string = string[:i] + new_char + string[i+1:]
@@ -24,7 +23,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 def get_number_of_char(string: str, char: str) -> int:
     string = "Menacing"
     count = 0
-    for i in string:
+    for char in string:
         count += 1
 
 
