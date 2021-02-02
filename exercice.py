@@ -3,7 +3,7 @@
 
 
 def is_even_len(string: str) -> bool:
-    channel = "Hello There"
+    string = "Hello There"
     if len(string)%2==0:
         print("True")
     else:
