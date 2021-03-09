@@ -3,7 +3,6 @@
 
 
 def is_even_len(string: str) -> bool:
-    string = ''
     if len(string) % 2 == 0:
         return True
     else:
@@ -32,9 +31,10 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
+    word = sentence.split()
     nb_words = 0
-    for i in range(len(sentence)):
-        if sentence[i:i + len(word)] == word and sentence[i-1] == and sentence[i+1] == "":
+    for w in word:
+        if w == word:
             nb_words += 1
     return nb_words
 
